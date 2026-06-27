@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+float toPounds(float kilogram) {
+    return (kilogram * 2.2046);
+}
+
+int main(){
+    float k_value = 74.50;
+    float result = toPounds(k_value);
+    
+    printf("Kilograms: %.2f\n", k_value);
+    printf("Convert Kilograms to Pounds: %.2f\n", result);
+    return 0;
+}
